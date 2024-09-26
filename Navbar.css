@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+.main-nav{
+    background-color: #804499;
+}
+.navbar-nav a{
+    color: white;
+    font-size: 18px;
+}
+.nav-donate{
+    width: 121px;
+    background-color: #2E3192;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.navbar-nav a:hover{
+    color: #ffff00;
+}
+.navbar-nav a:active::after{
+    color: yellow;
+}
+.nav-donate:hover{
+    background-color: white;
+    color: black;
+}.navbar-toggler:focus, 
+.navbar-toggler:active, 
+.navbar-toggler:hover {
+    outline: none;
+    box-shadow: none; /* Removes any focus/hover shadow */
+    border: none; /* Ensures no border is shown */
+}
+
+/* Custom width for the collapse navbar */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        max-width: 350px;
+        width: 350px;
+        position: absolute;
+        top: 90px;
+        right: -12px;
+        background-color: #262525;
+        ; /* Set background to white or desired color */
+        height: 100vh; /* Full height for side menu style */
+        padding-left: 40px;
+        padding-top: 40px;
+        line-height: 10px;
+        height: 400px;
+    }
+    .nav-donate{
+        height: 40px;
+    }
+    .navbar-toggler {
+        position: relative;
+        z-index: 1050;
+    }
+}
+
